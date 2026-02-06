@@ -2,10 +2,33 @@ h1{
     text-align: center;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 100px;
+    margin-bottom: -50px;
+}
+#hand{
+    text-align: center;
+    font-size: 100px;
+    position:relative;
 }
 .image{
-  display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 60px;
+}
+.box{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+}
+#bark{
+    margin:0;
+    margin-left:-30px;
+}
+
+#button{
+    display:block;
+    height: 50px;
+    width: 80px;
+    font-size: 20px;
+    margin-bottom: 50px;
 }
